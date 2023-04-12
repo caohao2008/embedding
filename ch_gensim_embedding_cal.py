@@ -5,8 +5,8 @@ import numpy as np
 from gensim.models import KeyedVectors
 
 #file = 'tencent-ailab-embedding-zh-d100-v0.2.0-s.txt'
-file = 'tencent-ailab-embedding-en-d100-v0.1.0-s'
-#file = 'sim.txt'
+#file = 'tencent-ailab-embedding-en-d100-v0.1.0-s'
+file = 'sim.txt'
 #wv_from_text = KeyedVectors.load_word2vec_format(file, binary=False)
 model = KeyedVectors.load_word2vec_format(file, binary=False)
 
